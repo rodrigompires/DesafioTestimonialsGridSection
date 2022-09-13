@@ -1,0 +1,261 @@
+.container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "first first second fifth"
+        "third fourth fourth fifth";
+    max-width: 1110px;
+    gap: 30px;
+
+
+
+    .first {
+        grid-area: first;
+        background-color: $moderate-violet;
+        padding: 1.8rem 2rem 2.3rem 2.4rem;
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: top right 10%;
+        border-radius: 8px;
+
+        &__name {
+            color: #F4D8FD;
+        }
+
+        &__graduate {
+            color: rgba($white, .4);
+            font-size: .83rem;
+        }
+
+        &__infos {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+
+            & img {
+                width: 2.4rem;
+                border-radius: 50%;
+                border: 2px solid #AA7DEE;
+            }
+        }
+
+        &__comment {
+            color: $light-grayish-blue;
+            margin-top: 1.4rem;
+        }
+
+        &__text {
+            font-size: 1.54rem;
+        }
+
+        &__declaration {
+            margin-top: 1.4rem;
+        }
+
+        &__cite {
+            line-height: 1.4rem;
+            color: #AB88DF;
+        }
+
+
+    }
+
+    .second {
+        grid-area: second;
+        padding: 1.8rem 2rem 2.3rem 2.4rem;
+        border-radius: 8px;
+        background-color: $very-dark-grayish-blue;
+
+
+        &__name {
+            color: #E5EBEE;
+        }
+
+        &__graduate {
+            color: #8A94A6;
+            font-size: .83rem;
+        }
+
+        &__infos {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+
+            & img {
+                width: 2.2rem;
+                border-radius: 50%;
+            }
+        }
+
+        &__comment {
+            color: $light-grayish-blue;
+            margin-top: 1.4rem;
+        }
+
+        &__text {
+            font-size: 1.54rem;
+        }
+
+        &__declaration {
+            margin-top: 1.4rem;
+        }
+
+        &__cite {
+            line-height: 1.4rem;
+            color: #B4C0CD;
+        }
+
+
+
+    }
+
+    .third {
+        grid-area: third;
+        padding: 2rem 2.4rem 2.3rem 2.5rem;
+        border-radius: 8px;
+        background-color: $white;
+
+
+        &__name {
+            color: #E5EBEE;
+        }
+
+        &__graduate {
+            color: #8A94A6;
+            font-size: .83rem;
+        }
+
+        &__infos {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+
+            & img {
+                width: 2.2rem;
+                border-radius: 50%;
+            }
+        }
+
+        &__comment {
+            color: $very-dark-grayish-blue;
+            margin-top: 1.6rem;
+        }
+
+        &__text {
+            font-size: 1.54rem;
+        }
+
+        &__declaration {
+            margin-top: 1.5rem;
+        }
+
+        &__cite {
+            line-height: 1.4rem;
+            color: $very-dark-grayish-blue;
+        }
+
+
+
+    }
+
+    .fourth {
+        grid-area: fourth;
+        padding: 2rem 2.4rem 2.3rem 2.5rem;
+
+        border-radius: 8px;
+        background-color: $very-dark-blackish-blue;
+
+        &__name {
+            color: #E5EBEE;
+        }
+
+        &__graduate {
+            color: #8A94A6;
+            font-size: .83rem;
+        }
+
+        &__infos {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+
+            & img {
+                width: 2.2rem;
+                border-radius: 50%;
+            }
+        }
+
+        &__comment {
+            color: $light-grayish-blue;
+            margin-top: 1.6rem;
+        }
+
+        &__text {
+            font-size: 1.54rem;
+        }
+
+        &__declaration {
+            margin-top: 1.5rem;
+        }
+
+        &__cite {
+            line-height: 1.4rem;
+            color: $light-gray;
+        }
+
+
+
+
+
+    }
+
+    .fifth {
+        grid-area: fifth;
+        padding: 2rem 2.4rem 2.3rem 2.5rem;
+        border-radius: 8px;
+        background-color: $white;
+
+
+        &__name {
+            color: #E5EBEE;
+        }
+
+        &__graduate {
+            color: #8A94A6;
+            font-size: .83rem;
+        }
+
+        &__infos {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+
+            & img {
+                width: 2.2rem;
+                border-radius: 50%;
+            }
+        }
+
+        &__comment {
+            color: $very-dark-grayish-blue;
+            margin-top: 1.6rem;
+        }
+
+        &__text {
+            font-size: 1.54rem;
+        }
+
+        &__declaration {
+            margin-top: 1.5rem;
+        }
+
+        &__cite {
+            line-height: 1.4rem;
+            color: $very-dark-grayish-blue;
+        }
+
+    }
+}
+
+
+

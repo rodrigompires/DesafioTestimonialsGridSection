@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// TEMA DARK
+
+body.dark {
+    background-color: $very-dark-blackish-blue;
+
+    .menu__item {
+        color: #1e8c93;
+        font-weight: 700;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .card {
+        box-shadow: 1px 1px 3px rgb(102, 99, 99);
+    }
+
+    .container {
+
+        .first {
+            background: linear-gradient(45deg, #536d88, #19274e);
+
+            &__text {
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 200;
+                font-size: 1.3rem;
+            }
+
+            &__cite {
+                font-family: 'Poppins', sans-serif;
+                font-size: .9rem;
+                color: $light-gray;
+            }
+        }
+
+        .second {
+            background: linear-gradient(45deg, #676077, #641f5e);
+
+            &__text {
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 200;
+                font-size: 1.3rem;
+            }
+
+            &__cite {
+                font-family: 'Poppins', sans-serif;
+                font-size: .9rem;
+                color: $light-gray;
+            }
+        }
+
+        .third {
+            background: linear-gradient(45deg, #ff6e4a, #5c5259);
+
+            &__text {
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 200;
+                font-size: 1.3rem;
+            }
+
+            &__cite {
+                font-family: 'Poppins', sans-serif;
+                font-size: .9rem;
+                color: $light-gray;
+            }
+        }
+
+        .fourth {
+            background: linear-gradient(45deg, #604878, #301860);
+
+            &__text {
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 200;
+                font-size: 1.3rem;
+            }
+
+            &__cite {
+                font-family: 'Poppins', sans-serif;
+                font-size: .9rem;
+                color: $light-gray;
+            }
+        }
+
+        .fifth {
+            background: linear-gradient(45deg, #4b3e4d, #1e8c93);
+
+            &__text {
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 200;
+                font-size: 1.3rem;
+                color: $very-dark-blackish-blue;
+            }
+
+            &__cite {
+                font-family: 'Poppins', sans-serif;
+                font-size: .9rem;
+                color: $light-gray;
+            }
+        }
+    }
+
+    .author__text {
+        color: #1e8c93;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+
+    .attribution {
+        color: #1e8c93;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+}
+
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// TEMA ELEGANTE
+
+
+@font-face {
+    font-family: 'Coldiac';
+    src: url(../fonts/Coldiac.otf) format('opentype'), url(../fonts/Coldiac.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Brela';
+    src: url(../fonts/brelaregular.otf) format('opentype'), url(../fonts/Coldiac.ttf) format('truetype');
+}
+
+body.elegant {
+    background: linear-gradient(45deg, #fafaf8, #ffeccb);
+
+    .menu__item {
+        color: #2c2f34;
+        font-weight: 700;
+        font-family: 'Coldiac', serif;
+    }
+
+    .card {
+        box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+    }
+
+    .first {
+        background: linear-gradient(45deg, #505154, #2c2f34);
+
+
+        &__text {
+            font-family: 'Coldiac', serif;
+            font-weight: 200;
+            font-size: 1.3rem;
+            color: #c89d6f;
+        }
+
+        &__cite {
+            font-family: 'Brela', serif;
+            color: #93969e;
+        }
+    }
+
+    .second {
+
+        &__text {
+            font-family: 'Coldiac', serif;
+            font-weight: 200;
+            font-size: 1.3rem;
+            color: #c89d6f;
+
+        }
+
+        &__cite {
+            font-family: 'Brela', serif;
+            color: #93969e;
+        }
+
+    }
+
+    .third {
+        background: linear-gradient(45deg, #a2ad91, #3a2d32);
+
+        &__text {
+            font-family: 'Coldiac', serif;
+            font-weight: 200;
+            font-size: 1.3rem;
+            color: #fafafa;
+
+        }
+
+        &__cite {
+            font-family: 'Brela', serif;
+            color: #c89d6f;
+        }
+
+    }
+
+    .fourth {
+        background: linear-gradient(45deg, #003049, #669bbc);
+
+        &__text {
+            font-family: 'Coldiac', serif;
+            font-weight: 200;
+            font-size: 1.3rem;
+            color: #c89d6f;
+
+        }
+
+        &__cite {
+            font-family: 'Brela', serif;
+            color: #fafafa;
+        }
+
+    }
+
+    .fifth {
+        background: linear-gradient(45deg, #fafafa, #434343);
+
+        &__text {
+            font-family: 'Coldiac', serif;
+            font-weight: 200;
+            font-size: 1.3rem;
+            color: #c89d6f;
+        }
+
+        &__cite {
+            font-family: 'Brela', serif;
+            color: rgb(36, 33, 33);
+        }
+    }
+
+    .author__text {
+        color: #c89d6f;
+        font-family: 'Coldiac', serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+
+    .attribution {
+        color: #c89d6f;
+        font-family: 'Coldiac', serif;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+}

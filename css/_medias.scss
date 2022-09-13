@@ -1,0 +1,40 @@
+@media screen and (max-width: 1025px) {
+    .container {
+        grid-template-areas: "first first second fifth"
+                            "fourth fourth third fifth";
+
+    }
+}
+
+@media screen and (max-width: 801px) {
+    .container {
+        grid-template-areas: "first first first second"
+                            "fourth fourth fourth third"
+                            "fifth fifth fifth fifth";
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        grid-template-areas: "first first first first"
+                            "second second second second"
+                            "third third third third"
+                            "fourth fourth fourth fourth"
+                            "fifth fifth fifth fifth";
+        padding: 1.85rem;
+
+        .first {
+
+            &__comment {
+                padding-right: .6rem;
+            }
+
+            &__declaration {
+                padding-right: 1.7rem;
+
+            }
+        }
+
+    }
+}
